@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #6641B1, #A386DE);
+    }
+
+    #log-in {
+        width: 90vw;
+    }
+
+    #imagem {
+        background: url(../imagens/pawel-czerwinski-C4iq8xKzY3Q-unsplash.jpg);
+        background-size: cover;
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #form {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, #A386DE, #6641B1);
+    }
+
+    #log-in {
+        width: 950px;
+    }
+
+    #imagem {
+        background: url(../imagens/dominik-scythe-oasArKDSG1E-unsplash.jpg);
+        background-size: cover;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #form {
+        float: right;
+        width: 50%;
+    }
+}
